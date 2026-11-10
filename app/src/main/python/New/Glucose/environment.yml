@@ -1,11 +1,9 @@
-name: my_env 
+name: glucoshema
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - python>=3.7
-  - anaconda
+  - python=3.10
   - pip
   - pip:
     - -r requirements.txt
-prefix: /home/rezwan/anaconda3/envs/vid_summ_env
